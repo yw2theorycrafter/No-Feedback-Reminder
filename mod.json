@@ -1,0 +1,9 @@
+{
+  "Id": "No Feedback Reminder",
+  "DisplayName": "No Feedback Reminder",
+  "Author": "yw2theorycrafter, kairality",
+  "Version": "1.0.0.0",
+  "Game": "Subnautica",
+  "AssemblyName": "No Feedback Reminder.dll",
+  "Enable": false
+}
