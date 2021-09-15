@@ -7,8 +7,8 @@
     <ProjectGuid>{2B066217-E328-4481-9BB3-40A734CB41AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>No_Strobe_Fabricator</RootNamespace>
-    <AssemblyName>No Strobe Fabricator</AssemblyName>
+    <RootNamespace>No_Feedback_Reminder</RootNamespace>
+    <AssemblyName>No Feedback Reminder</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
