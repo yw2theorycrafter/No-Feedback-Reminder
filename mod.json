@@ -5,5 +5,8 @@
   "Version": "1.0.0.0",
   "Game": "Subnautica",
   "AssemblyName": "No Feedback Reminder.dll",
+  "NexusId": {
+    "Subnautica": "845"
+  },
   "Enable": true
 }
