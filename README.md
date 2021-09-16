@@ -1,2 +1,2 @@
 # No-Feedback-Fabricator
-Subnautica mod to improve immersion by removing the nagging reminder to submit bugs and feedback when a save is loaded.
+Subnautica mod that removes the periodic immersion-breaking, nagging reminder to submit bugs + feedback.
