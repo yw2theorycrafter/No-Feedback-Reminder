@@ -37,6 +37,7 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\Subnautica_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="QModInstaller">
       <HintPath>..\..\BepInEx\plugins\QModManager\QModInstaller.dll</HintPath>
     </Reference>
@@ -60,7 +61,7 @@
   <ItemGroup>
     <Compile Include="Logger.cs" />
     <Compile Include="Main.cs" />
-    <Compile Include="Patches\Fabricator_Patches.cs" />
+    <Compile Include="Patches\FeedbackCollector_Patches.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

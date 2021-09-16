@@ -14,7 +14,10 @@ namespace No_Feedback_Reminder
         public static void Patch()
         {
             // Add your patching code here
-            QModServices.Main.AddCriticalMessage("No Feedback Reminder loaded.");
+            //QModServices.Main.AddCriticalMessage("No Feedback Reminder loaded.");
+#if DEBUG
+            Logger.Log("No Feedback Reminder loaded.");
+#endif
             Harmony harmony = new Harmony("com.yw2theorycrafter.nofeedbackreminder");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
