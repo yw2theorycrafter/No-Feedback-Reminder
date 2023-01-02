@@ -32,14 +32,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Subnautica\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\Subnautica_Data\Managed\Assembly-CSharp.dll</HintPath>
+    <Reference Include="Assembly-CSharp-firstpass_publicized">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\publicized_assemblies\Assembly-CSharp-firstpass_publicized.dll</HintPath>
     </Reference>
-    <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" />
-    <Reference Include="QModInstaller">
-      <HintPath>..\..\BepInEx\plugins\QModManager\QModInstaller.dll</HintPath>
+    <Reference Include="Assembly-CSharp_publicized">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\publicized_assemblies\Assembly-CSharp_publicized.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Subnautica\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,13 +51,11 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Subnautica_Data\Managed\UnityEngine.dll</HintPath>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Subnautica_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Subnautica\Subnautica_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
